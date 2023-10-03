@@ -1,0 +1,151 @@
+.a{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.img1{
+    width: 80%;
+}
+
+.why{
+    background: url('https://www.firstfiddle.in/assets/images/bannerabout.jpg');
+    /* height: 500px; */
+    width: 100%;
+}
+.c{
+    padding: 100px 20px;
+}
+
+footer{
+    background: #000;
+    padding: 50px;
+    color: #fff;
+}
+
+.F{
+    background: black;
+    height: 116px;
+}
+.g i{
+    color: #ffad00;
+    font-size: 30px;
+}
+
+.weblogo{
+    width: 65px;
+}
+.navbar{
+    background: #00000082!important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.moblogo{
+    display: none;
+}
+@media (max-width: 768px ) {
+    .moblogo{
+        display: block;
+    }  
+    .weblogo{
+        display: none;
+    }
+
+    .navbar{
+        background: #fbac1b!important;
+    }
+    .img1{
+        width: 100%;
+    }
+}
+
+@media(max-width:768px){
+    .banner{
+        margin-top: 50px;
+    }
+} 
+
+.pk{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+.priyank{
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+/* brands css start */
+.mob-banner{
+    display: none;
+}
+
+@media(max-width:768px){
+    .mob-banner{
+        display: block;
+    }
+    .desk-banner img{
+        display: none;
+    }
+}
+/* brands css end */
+/* our team start */
+.img-title{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0%;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.priyank-image{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+.fab {
+    
+    
+    color: #fcb21b;
+
+}
+
+.box16{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
+}
+
+.con{
+    padding: 20px;
+    margin-bottom: 20px;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+/* our team end  */
